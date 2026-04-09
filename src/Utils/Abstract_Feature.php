@@ -1,6 +1,6 @@
 <?php
 
-    namespace ACFW\Features;
+    namespace ACFW\Utils;
 
     abstract class Abstract_Feature {
 
