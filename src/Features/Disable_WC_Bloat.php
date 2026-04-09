@@ -4,6 +4,11 @@
 
     use ACFW\Utils\Abstract_Feature;
 
+    // Exit if accessed directly
+    if ( ! defined( 'ABSPATH' ) ) {
+        exit;
+    }
+
     class Disable_WC_Bloat extends Abstract_Feature {
 
         public function boot() {

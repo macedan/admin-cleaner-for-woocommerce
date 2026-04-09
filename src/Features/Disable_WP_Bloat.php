@@ -4,6 +4,11 @@
 
     use ACFW\Utils\Abstract_Feature;
 
+    // Exit if accessed directly
+    if ( ! defined( 'ABSPATH' ) ) {
+        exit;
+    }
+
     class Disable_WP_Bloat extends Abstract_Feature {
 
         public function boot(){
