@@ -1,0 +1,15 @@
+{
+    "name": "danmace/admin-cleaner-for-woocommece",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "psr-4": {
+            "ACFW\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "danmace"
+        }
+    ],
+    "require": {}
+}
