@@ -7,7 +7,7 @@
         private static $instance = null;
 
         private $features = [
-            Features\Disable_Analytics::class,
+            Features\Disable_WC_Bloat::class,
             Features\Disable_WP_Bloat::class,
         ];
 
