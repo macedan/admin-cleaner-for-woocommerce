@@ -1,8 +1,8 @@
-=== WooCommerce Admin Cleaner ===
+=== Admin Cleaner for WooCommerce ===
 Contributors: danmace
 Tags: woocommerce, admin, performance, cleanup
 Requires at least: 6.0
-Tested up to: 6.5
+Tested up to: 6.9
 Requires PHP: 7.4
 Stable tag: 1.0.0
 License: GPLv3 or later
@@ -12,7 +12,7 @@ Lightweight plugin to clean up the WordPress and WooCommerce admin by removing u
 
 == Description ==
 
-WooCommerce Admin Cleaner removes common sources of admin clutter and unnecessary processing in WooCommerce and WordPress.
+Admin Cleaner for WooCommerce removes common sources of admin clutter and unnecessary processing in WooCommerce and WordPress.
 
 This plugin is designed for developers and site owners who want a cleaner, faster admin experience without unnecessary features enabled by default.
 
