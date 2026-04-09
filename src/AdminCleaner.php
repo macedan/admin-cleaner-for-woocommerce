@@ -7,7 +7,7 @@
         private static $instance = null;
 
         private $features = [
-            Features\Disable_Analytics::class,
+            Features\Disable_WC_Bloat::class,
         ];
 
         /**
