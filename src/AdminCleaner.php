@@ -16,6 +16,9 @@
          */
         private function __construct() {
 
+            // Allow features to be added via filter.
+            $this->features = apply_filters( 'acfw_admin_cleaner_features', $this->features );
+
             // Loop over features + initialize them.
             foreach ( $this->features as $feature_class ) {
                 $feature = new $feature_class();
