@@ -7,10 +7,8 @@
     class Disable_Analytics extends Abstract_Feature {
 
         public function boot() {
-            
-        }
 
-        public function disable_analytics_feature( ) {
-
+            // Disable WooCommerce Analytics.
+            add_filter( 'option_woocommerce_analytics_enabled', '__return_false' );
         }
     }
