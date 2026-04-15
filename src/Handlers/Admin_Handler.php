@@ -35,6 +35,11 @@
          */
         public function settings_page(): void {
 
+            // Capability check before render.
+            if ( ! current_user_can( 'manage_options' ) ) {
+                return;
+            }
+
             ?>
             <div class="wrap">
                 <h1>Admin Cleaner</h1>
