@@ -25,6 +25,11 @@
          */
         public static function set( string $setting_key, $value ): void {
 
+            // Ensure settings are loaded.
+            if ( empty( static::$settings_cache ) ) {
+                static::load_settings();
+            }
+
             // Update the setting locally.
             static::$settings_cache[ $setting_key ] = $value;
 
