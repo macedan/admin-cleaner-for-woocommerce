@@ -2,9 +2,9 @@
 
     namespace ACFW\Utils;
 
-    class Settings{
+    class Settings {
 
-        private static $settings_cache = [];
+        private static $settings_cache = null;
 
         /**
          * Load settings array from WP Options
@@ -26,7 +26,7 @@
         public static function set( string $setting_key, $value ): void {
 
             // Ensure settings are loaded.
-            if ( empty( static::$settings_cache ) ) {
+            if( null === static::$settings_cache ) {
                 static::load_settings();
             }
 
@@ -47,7 +47,7 @@
         public static function get( string $setting_key, $default = false ) {
 
             // Ensure settings are loaded.
-            if( empty( static::$settings_cache ) ) {
+            if( null === static::$settings_cache ) {
                 static::load_settings();
             }
 
