@@ -3,7 +3,7 @@
     /**
      * Plugin Name: Admin Cleaner for WooCommerce
      * Description: Clean up WooCommerce admin interface by hiding unnecessary elements and providing a streamlined admin experience.
-     * Version: 1.0.0
+     * Version: 1.1.0
      * Author: Dan Mace
      * License: GPLv3 or later
      * Text Domain: admin-cleaner-for-woocommerce
