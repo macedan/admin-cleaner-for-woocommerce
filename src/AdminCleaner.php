@@ -2,6 +2,8 @@
 
     namespace ACFW;
 
+    use ACFW\Handlers\Admin_Handler;
+
     class AdminCleaner {
 
         private static $instance = null;
@@ -15,6 +17,9 @@
          * Private constructor to prevent direct instantiation. Use get_instance() method instead.
          */
         private function __construct() {
+
+            // Init Admin Handler.
+            Admin_Handler::get_instance();
 
             // Allow features to be added via filter.
             $this->features = apply_filters( 'acfw_admin_cleaner_features', $this->features );
