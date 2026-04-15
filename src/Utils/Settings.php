@@ -13,7 +13,7 @@
         private static function load_settings(){
 
             // Load settings from WP Options.
-            static::$settings_cache = get_option( 'acfw_settings' );
+            static::$settings_cache = get_option( 'acfw_settings', [] );
         }
 
         /**
