@@ -1,5 +1,5 @@
 {
-    "name": "danmace/admin-cleaner-for-woocommece",
+    "name": "macedan/admin-cleaner-for-woocommerce",
     "type": "wordpress-plugin",
     "autoload": {
         "psr-4": {
@@ -8,7 +8,7 @@
     },
     "authors": [
         {
-            "name": "danmace"
+            "name": "macedan"
         }
     ],
     "require": {}

@@ -24,7 +24,7 @@ This plugin is designed for developers and site owners who want a cleaner, faste
 
 == Installation ==
 
-1. Upload the plugin files to the `/wp-content/plugins/woocommerce-admin-cleaner` directory, or install via the WordPress plugin screen.
+1. Upload the plugin files to the `/wp-content/plugins/admin-cleaner-for-woocommerce` directory, or install via the WordPress plugin screen.
 2. Activate the plugin through the 'Plugins' screen in WordPress.
 3. No configuration required.
 
