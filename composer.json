@@ -1,9 +1,9 @@
 {
-    "name": "macedan/admin-cleaner-for-woocommerce",
+    "name": "macedan/speed-boost",
     "type": "wordpress-plugin",
     "autoload": {
         "psr-4": {
-            "ACFW\\": "src/"
+            "SB\\": "src/"
         }
     },
     "authors": [

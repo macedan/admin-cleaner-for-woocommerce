@@ -1,4 +1,4 @@
-=== Admin Cleaner for WooCommerce ===
+=== Speed Boost — Backend performance ===
 Contributors: danmace
 Tags: woocommerce, admin, performance, cleanup
 Requires at least: 6.0
@@ -12,7 +12,7 @@ Lightweight plugin to clean up the WordPress and WooCommerce admin by removing u
 
 == Description ==
 
-Admin Cleaner for WooCommerce removes common sources of admin clutter and unnecessary processing in WooCommerce and WordPress.
+Speed Boost removes common sources of admin clutter and unnecessary processing in WooCommerce and WordPress.
 
 This plugin is designed for developers and site owners who want a cleaner, faster admin experience without unnecessary features enabled by default.
 
@@ -24,7 +24,7 @@ This plugin is designed for developers and site owners who want a cleaner, faste
 
 == Installation ==
 
-1. Upload the plugin files to the `/wp-content/plugins/admin-cleaner-for-woocommerce` directory, or install via the WordPress plugin screen.
+1. Upload the plugin files to the `/wp-content/plugins/speed-boost` directory, or install via the WordPress plugin screen.
 2. Activate the plugin through the 'Plugins' screen in WordPress.
 3. No configuration required.
 

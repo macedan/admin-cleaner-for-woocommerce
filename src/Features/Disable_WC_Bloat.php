@@ -1,8 +1,8 @@
 <?php
 
-    namespace ACFW\Features; 
+    namespace SB\Features; 
 
-    use ACFW\Utils\Abstract_Feature;
+    use SB\Utils\Abstract_Feature;
 
     // Exit if accessed directly
     if ( ! defined( 'ABSPATH' ) ) {
@@ -12,6 +12,11 @@
     class Disable_WC_Bloat extends Abstract_Feature {
 
         public function boot() {
+
+            // Check if WooCommerce is active
+            if ( ! class_exists( 'WooCommerce' ) ) {
+                return;
+            }
 
             // Disable WooCommerce Analytics.
             add_filter( 'option_woocommerce_analytics_enabled', '__return_false' );

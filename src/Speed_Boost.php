@@ -1,8 +1,8 @@
 <?php
 
-    namespace ACFW;
+    namespace SB;
 
-    class AdminCleaner {
+    class Speed_Boost {
 
         private static $instance = null;
 
@@ -17,7 +17,7 @@
         private function __construct() {
 
             // Allow features to be added via filter.
-            $this->features = apply_filters( 'acfw_admin_cleaner_features', $this->features );
+            $this->features = apply_filters( 'sb_speed_boost_features', $this->features );
 
             // Loop over features + initialize them.
             foreach ( $this->features as $feature_class ) {
@@ -29,7 +29,7 @@
         }
 
         /**
-         * Returns singleton instance of the AdminCleaner class.
+         * Returns singleton instance of the Speed_Boost class.
          */
         public static function get_instance() {
             if ( self::$instance === null ) {
