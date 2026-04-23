@@ -1,12 +1,12 @@
 <?php
 
     /**
-     * Plugin Name: Speed Boost — Backend performance
+     * Plugin Name: DanMace Admin Cleanup Tools
      * Description: Boost WordPress backend performance by removing unnecessary admin bloat and streamlining the dashboard experience.
      * Version: 1.0.0
      * Author: Dan Mace
      * License: GPLv3 or later
-     * Text Domain: speed-boost
+     * Text Domain: danmace-admin-cleanup-tools
      */
 
     // Exit if accessed directly
@@ -18,9 +18,9 @@
     require_once plugin_dir_path( __FILE__ ) . 'vendor/autoload.php';
 
     // Initialize the plugin.
-    function sb_init() {
+    function act_init() {
 
         // Initialize the plugin's main class
-        $speed_boost = SB\Speed_Boost::get_instance();
+        $danmace_admin_cleanup_tools = DM\Admin_Cleanup_Tools::get_instance();
     }
-    add_action( 'plugins_loaded', 'sb_init' );
+    add_action( 'plugins_loaded', 'act_init' );

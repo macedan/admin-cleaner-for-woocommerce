@@ -1,6 +1,6 @@
 <?php
 
-    namespace SB\Utils;
+    namespace DM\Utils;
 
     abstract class Abstract_Feature {
 

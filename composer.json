@@ -1,9 +1,9 @@
 {
-    "name": "macedan/speed-boost",
+    "name": "macedan/admin-cleanup-tools",
     "type": "wordpress-plugin",
     "autoload": {
         "psr-4": {
-            "SB\\": "src/"
+            "DM\\": "src/"
         }
     },
     "authors": [

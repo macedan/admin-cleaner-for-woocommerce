@@ -1,8 +1,8 @@
 <?php
 
-    namespace SB\Features;
+    namespace DM\Features;
 
-    use SB\Utils\Abstract_Feature;
+    use DM\Utils\Abstract_Feature;
 
     // Exit if accessed directly
     if ( ! defined( 'ABSPATH' ) ) {
