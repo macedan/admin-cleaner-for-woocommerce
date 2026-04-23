@@ -1,8 +1,8 @@
 <?php
 
-    namespace ACFW\Features;
+    namespace DM\Features;
 
-    use ACFW\Utils\Abstract_Feature;
+    use DM\Utils\Abstract_Feature;
 
     // Exit if accessed directly
     if ( ! defined( 'ABSPATH' ) ) {

@@ -1,9 +1,9 @@
 {
-    "name": "macedan/admin-cleaner-for-woocommerce",
+    "name": "macedan/admin-cleanup-tools",
     "type": "wordpress-plugin",
     "autoload": {
         "psr-4": {
-            "ACFW\\": "src/"
+            "DM\\": "src/"
         }
     },
     "authors": [
