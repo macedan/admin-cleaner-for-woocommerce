@@ -1,6 +1,6 @@
 <?php
 
-    namespace DanMace;
+    namespace DanMace\ACT;
 
     class Admin_Cleanup_Tools {
 

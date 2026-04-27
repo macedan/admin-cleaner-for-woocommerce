@@ -3,7 +3,7 @@
     "type": "wordpress-plugin",
     "autoload": {
         "psr-4": {
-            "DanMace\\": "src/"
+            "DanMace\\ACT\\": "src/"
         }
     },
     "authors": [

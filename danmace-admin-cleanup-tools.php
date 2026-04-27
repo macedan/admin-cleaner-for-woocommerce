@@ -21,6 +21,6 @@
     function danmace_act_init() {
 
         // Initialize the plugin's main class
-        $danmace_admin_cleanup_tools = DanMace\Admin_Cleanup_Tools::get_instance();
+        $danmace_admin_cleanup_tools = DanMace\ACT\Admin_Cleanup_Tools::get_instance();
     }
     add_action( 'plugins_loaded', 'danmace_act_init' );
