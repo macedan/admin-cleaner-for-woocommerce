@@ -1,8 +1,8 @@
 <?php
 
-    namespace DM\Features; 
+    namespace DanMace\ACT\Features; 
 
-    use DM\Utils\Abstract_Feature;
+    use DanMace\ACT\Utils\Abstract_Feature;
 
     // Exit if accessed directly
     if ( ! defined( 'ABSPATH' ) ) {

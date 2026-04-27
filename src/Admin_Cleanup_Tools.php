@@ -1,6 +1,6 @@
 <?php
 
-    namespace DM;
+    namespace DanMace\ACT;
 
     class Admin_Cleanup_Tools {
 
@@ -17,7 +17,7 @@
         private function __construct() {
 
             // Allow features to be added via filter.
-            $this->features = apply_filters( 'dmact_admin_features', $this->features );
+            $this->features = apply_filters( 'danmace_act_admin_features', $this->features );
 
             // Loop over features + initialize them.
             foreach ( $this->features as $feature_class ) {

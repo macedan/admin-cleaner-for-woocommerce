@@ -1,6 +1,6 @@
 <?php
 
-    namespace DM\Utils;
+    namespace DanMace\ACT\Utils;
 
     abstract class Abstract_Feature {
 

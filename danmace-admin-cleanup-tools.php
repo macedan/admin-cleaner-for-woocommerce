@@ -18,9 +18,9 @@
     require_once plugin_dir_path( __FILE__ ) . 'vendor/autoload.php';
 
     // Initialize the plugin.
-    function act_init() {
+    function danmace_act_init() {
 
         // Initialize the plugin's main class
-        $danmace_admin_cleanup_tools = DM\Admin_Cleanup_Tools::get_instance();
+        $danmace_admin_cleanup_tools = DanMace\ACT\Admin_Cleanup_Tools::get_instance();
     }
-    add_action( 'plugins_loaded', 'act_init' );
+    add_action( 'plugins_loaded', 'danmace_act_init' );
