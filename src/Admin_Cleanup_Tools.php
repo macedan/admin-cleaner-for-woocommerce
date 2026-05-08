@@ -9,6 +9,7 @@
         private $features = [
             Features\Disable_WC_Bloat::class,
             Features\Disable_WP_Bloat::class,
+            Features\Disable_AI_Bloat::class
         ];
 
         /**
