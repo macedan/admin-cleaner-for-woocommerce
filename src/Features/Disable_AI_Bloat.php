@@ -19,11 +19,11 @@
             // Disable Jetpack AI features.
             add_filter( 'jetpack_ai_enabled', '__return_false' );
 
-            // Hook into yoast options to disable AI features in-flight.
+            // Hook into Yoast options at runtime to disable AI generator without modifying the database.
+            // Only the AI generator key is overridden; all other Yoast settings pass through unchanged.
             add_filter( 'option_wpseo', function( $options ) {
                 $options['enable_ai_generator'] = false;
                 return $options;
             });
         }
     }
-    

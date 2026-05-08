@@ -40,6 +40,9 @@ No. This plugin applies opinionated defaults to clean up the admin experience.
 
 == Changelog ==
 
+= 1.0.1 =
+* Adds AI removal feature
+
 = 1.0.0 =
 * Initial release
 * Remove WordPress dashboard widgets
