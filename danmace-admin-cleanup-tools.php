@@ -3,7 +3,7 @@
     /**
      * Plugin Name: DanMace Admin Cleanup Tools
      * Description: Boost WordPress backend performance by removing unnecessary admin bloat and streamlining the dashboard experience.
-     * Version: 1.0.0
+     * Version: 1.0.1
      * Author: Dan Mace
      * License: GPLv3 or later
      * Text Domain: danmace-admin-cleanup-tools
