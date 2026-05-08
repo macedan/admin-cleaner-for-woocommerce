@@ -13,6 +13,9 @@
 
         public function boot() {
 
+            // Disable Core WP AI features.
+            add_filter( 'wp_supports_ai', '__return_false' );
+
             // Hook into yoast options to disable AI features in-flight.
             add_filter( 'option_wpseo', function( $options ) {
                 $options['enable_ai_generator'] = false;
