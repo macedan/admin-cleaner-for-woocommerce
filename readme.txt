@@ -1,14 +1,14 @@
 === DanMace Admin Cleanup Tools ===
 Contributors: danmace
-Tags: woocommerce, admin, performance, cleanup
+Tags: woocommerce, admin, performance, cleanup, ai
 Requires at least: 6.0
-Tested up to: 6.9
+Tested up to: 7.0
 Requires PHP: 7.4
 Stable tag: 1.0.1
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-Lightweight plugin to clean up the WordPress and WooCommerce admin by removing unnecessary features and overhead.
+Remove admin bloat, unnecessary dashboard widgets, WooCommerce clutter, and AI features from WordPress and popular plugins.
 
 == Description ==
 
@@ -21,6 +21,7 @@ This plugin is designed for developers and site owners who want a cleaner, faste
 - Removes default WordPress dashboard widgets (e.g. WordPress news)
 - Removes WooCommerce processing order count from admin menu (reduces unnecessary queries)
 - Disables WooCommerce Analytics
+- Disables AI features in WordPress Core (7.0+), Jetpack, and Yoast SEO
 
 == Installation ==
 
@@ -38,18 +39,26 @@ WooCommerce-specific features will only run if WooCommerce is active.
 
 No. This plugin applies opinionated defaults to clean up the admin experience.
 
+= Can I disable individual features? =
+Not yet — all features are enabled by default. A settings page is planned for a future release.
+
 == Changelog ==
 
 = 1.0.1 =
-* Adds AI removal feature
+* Disables AI features in WordPress Core (7.0+)
+* Disables Jetpack AI Assistant
+* Disables Yoast SEO AI generator
 
 = 1.0.0 =
 * Initial release
-* Remove WordPress dashboard widgets
-* Remove WooCommerce processing order count
-* Disable WooCommerce Analytics
+* Removes WordPress dashboard widgets
+* Removes WooCommerce processing order count
+* Disables WooCommerce Analytics
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+Adds AI removal for WordPress Core, Jetpack, and Yoast SEO. No configuration required.
 
 = 1.0.0 =
 Initial release.
